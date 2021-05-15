@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .header{
+            text-align: center;
+            background-color: red;
+            color: white;
+        }
+        h1{
+            padding: 10px;
+        }
+        .select{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2{
+            font-size:30px;
+        }
+        .konum{
+            width: 500px;
+            font-size: 20px;
+            color:black;
+            font-weight: 700;
+            padding: 5px 20px;
+        }
+        #goster{
+            margin-top: 20px;
+            color: black;
+            background:wheat;
+            font-size: 15px;
+            padding: 5px 15px;
+            font-weight: 700;
+            border-radius: 30px;
+        }
+        .saat{
+            text-align: center;
+            margin-top: 100px;
+            background: crimson;
+            padding: 30px 0;
+            border-radius: 30px;
+            color: white;
+            font-size: 17px;
+            font-weight: 700;
+            display: none;
+        }
+        
+        
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Dünya Saatleri</h1>
+    </div>
+    <div class="container">
+        <div class="select">
+            <h2>Konum Seçiniz</h2>
+            <select class="konum" name="saat">
+                <option>Konum Seç</option>
+            </select>
+            <button id="goster">Göster</button>
+        </div>
+        <div class="saat">
+            deneme : 1 : 3
+        </div>
+    </div>
+</body>
+<script src="saat.js"></script>
+</html>
